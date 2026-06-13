@@ -1,5 +1,5 @@
-import '../datasource/remote/user_remote_datasource.dart';
-import '../datasource/local/user_local_datasource.dart';
+import '../remote_datasource/user_remote_datasource.dart';
+import '../lokal_data source/user_local_datasource.dart';
 
 class UserRepositoryImpl {
   final UserRemoteDataSource remoteDataSource;
