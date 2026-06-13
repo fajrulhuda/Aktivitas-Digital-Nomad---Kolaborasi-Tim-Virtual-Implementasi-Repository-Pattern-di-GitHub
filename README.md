@@ -15,3 +15,15 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Repository Pattern
+
+Repository Pattern digunakan untuk memisahkan sumber data dari
+business logic sehingga kode lebih mudah dirawat, diuji,
+dan dikembangkan.
+
+Keuntungan:
+- Memisahkan data layer dan domain layer
+- Mudah mengganti API atau database
+- Mudah melakukan testing
+- Kode lebih modular
